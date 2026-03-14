@@ -10,14 +10,3 @@
 
         return k + 1;
     };
-
-    var removeDuplicates = function (nums) {
-        let k = 0;
-        for (let i = 1; i < nums.lengh; i++) {
-            if (nums[i] !== nums[k]) {
-                k++;
-                nums[k] = nums[i]
-            }
-        }
-        return k + 1
-    };
